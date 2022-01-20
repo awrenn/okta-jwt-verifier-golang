@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/awrenn/okta-jwt-verifier-golang/adaptors"
 	"github.com/lestrrat-go/jwx/jwk"
 	"github.com/lestrrat-go/jwx/jws"
-	"github.com/okta/okta-jwt-verifier-golang/adaptors"
 	"github.com/patrickmn/go-cache"
 )
 
